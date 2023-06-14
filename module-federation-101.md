@@ -52,15 +52,15 @@ If you are working on a large-scale application where every feature is a project
 
 ### 5. **Why**?
 
-    1. isolation
+    1. Isolation
 
-    2. independent
+    2. Independent
 
-    3. cross-tech components
+    3. Cross-tech components
 
-    4. non-monolith
+    4. Non-monolith
     
-### 6. **Other options?**
+### 6. **Other options than Webpack?**
     
     1. Rollup
 
@@ -70,7 +70,7 @@ If you are working on a large-scale application where every feature is a project
     
 ### 7. **How**
     
-    Divide:
+    You can divide your appliction: 
     
     1. UI components
 
@@ -119,7 +119,7 @@ If you are working on a large-scale application where every feature is a project
     
     You need to eject the web pack
     
-### 11.  **Features**:
+### 11.  **What MF can do**:
     
     1. Style
 
@@ -149,10 +149,10 @@ If you are working on a large-scale application where every feature is a project
 
     2. Perf can be an issue
 
-## Configs: 
+## 13. Configs: 
 
 Check [here](https://github.com/Neha/module-federation/blob/master/configs.md) how to start with module federation 
 
-## Demo:
+## 14. Demo:
 
 check the Demo folder for the demo

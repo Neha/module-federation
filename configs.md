@@ -2,11 +2,11 @@
 
 In this example, we will have the applications on ReactJS using CRA.
 
-1. Create 2 application and name one as host and other as remote application
+1. Create 2 application and name one as host and other as remote application.
 
-2. Identify the components from remote to be exposed
+2. Identify the components from remote to be exposed.
 
-3. Do eject (as we are using CRA) on both applications. Remember we need webpack config
+3. Do eject (as we are using CRA) on both applications. Remember we need webpack config to override.
 
 4. Go to webpack config and do the following:
 
@@ -15,7 +15,6 @@ In this example, we will have the applications on ReactJS using CRA.
 1. expose the components from remote application. Remember the `name` key is important here (we will see in next step why)
 
 2. Once the config is updated. Re-run the application and note the localhost url (we will see in next step why).
-
 
 ```Javascript
 
@@ -114,3 +113,11 @@ new ModuleFederationPlugin({
 ``` JAVASCRIPT
     import("./bootstrap.js");
 ```
+
+### Step 6: What are other options in the config?
+
+1. eager
+
+2. shared
+
+3. Singleton
